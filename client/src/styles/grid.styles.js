@@ -1,4 +1,7 @@
 import styled from "styled-components";
+import { FaTrash, FaEdit, FaRegSave } from "react-icons/fa";
+import { MdOutlineCancel } from "react-icons/md";
+
 
 export const Table = styled.table`
   width: 100%;
@@ -9,6 +12,40 @@ export const Table = styled.table`
   max-width: 1120px;
   margin: 20px auto;
   word-break: break-all;
+`;
+
+export const StyledEditIcon = styled(FaEdit)`
+  cursor: pointer;
+  &:hover {
+      color: blue;
+      transform: scale(1.2);
+    }
+`;
+
+export const StyledTrashIcon = styled(FaTrash)`
+  cursor: pointer;  
+    &:hover {
+      color: red;
+      transform: scale(1.2);
+    }
+`;
+
+export const BtnCancel = styled(MdOutlineCancel)`
+  width: 5vw;
+  cursor: pointer;  
+    &:hover {
+      transform: scale(1.2);
+    }
+
+`;
+
+export const BtnSave = styled(FaRegSave)`
+  width: 5vw;
+  cursor: pointer;  
+    &:hover {
+      transform: scale(1.2);
+    }
+
 `;
 
 export const Thead = styled.thead``;

@@ -1,70 +1,80 @@
-# Getting Started with Create React App
+# CRUD-FullStack
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Descrição
 
-## Available Scripts
+O projeto CRUD-FullStack foi desenvolvido por João Lara e tem como intuito apresentar um projeto de CRUD com integração ao banco de dados.
+ O projeto inclui a criação e implementação da API, bem como o desenvolvimento do frontend.
 
-In the project directory, you can run:
+### Exemplo de Interface do Usuário:
 
-### `npm start`
+![Exemplo de Interface do Usuário](./public/crud-exemple.png.png)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Instalação
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Para instalar e executar o projeto, siga as instruções abaixo:
 
-### `npm test`
+1. Clone o repositório do projeto:
+   ```
+   git clone https://github.com/joaovlara/CRUD-FullStack.git
+   ```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+2. Acesse o diretório do projeto:
+   ```
+   cd CRUD-FullStack
+   ```
 
-### `npm run build`
+3. Instale as dependências do lado do cliente:
+   ```
+   cd client
+   yarn install
+   ```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+4. Execute o projeto:
+   ```
+   yarn start
+   ```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Uso
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+O CRUD é um conjunto de operações básicas usadas em sistemas de banco de dados e aplicativos para gerenciar dados. As quatro operações são:
 
-### `npm run eject`
+1. **Create (Criar)**: Adicionar novos dados.
+2. **Read (Ler)**: Recuperar dados existentes.
+3. **Update (Atualizar)**: Modificar dados existentes.
+4. **Delete (Excluir)**: Remover dados existentes.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Essas operações formam a base para a manipulação eficaz de dados em aplicativos e sistemas de software.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+# Dependências do Projeto
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Frontend (client)
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- **React**: Biblioteca JavaScript para criar interfaces de usuário.
+- **React DOM**: Fornece métodos específicos para DOM para serem usados ​​em conjunto com o React.
+- **React Icons**: Pacote de ícones para aplicativos React.
+- **React Scripts**: Scripts para iniciar e construir aplicativos React.
+- **Styled Components**: Biblioteca para escrever CSS em JavaScript.
+- **Axios**: Cliente HTTP baseado em Promises para fazer requisições AJAX.
+- **React Toastify**: Biblioteca para exibir notificações de forma fácil e customizável.
+- **Testing Library**: Ferramentas para testar componentes React.
 
-## Learn More
+## Backend (API)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- **Express**: Framework web rápido, flexível e minimalista para Node.js.
+- **Cors**: Middleware para habilitar o CORS (Cross-Origin Resource Sharing) em aplicativos Node.js.
+- **MySQL**: Driver para interagir com bancos de dados MySQL.
+- **Nodemon**: Utilitário que monitora alterações no código fonte e reinicia automaticamente o servidor Node.js durante o desenvolvimento.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Autor
 
-### Code Splitting
+[João Lara](https://www.linkedin.com/in/seu-perfil-do-linkedin/)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Contato
 
-### Analyzing the Bundle Size
+Se você tiver alguma dúvida ou sugestão sobre o projeto, sinta-se à vontade para entrar em contato comigo em [joaovdelara@gmail.com](joaovdelara@gmail.com) ou através do meu [LinkedIn](https://www.linkedin.com/in/seu-perfil-do-linkedin/).
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## Status do Projeto
 
-### Making a Progressive Web App
+Este projeto está atualmente em aperfeiçoamento.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+---

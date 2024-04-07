@@ -1,6 +1,7 @@
 import styled from "styled-components";
 
 export const FormContainer = styled.form`
+  background-color: white;
   display: flex;
   align-items: flex-end;
   justify-content:center;
@@ -34,4 +35,9 @@ export const Button = styled.button`
   background-color: #2c73d2;
   color: white;
   height: 42px;
+  &:hover {
+    background-color: darkblue;
+    transform: scale(1.05);
+
+    }
 `;
