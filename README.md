@@ -7,7 +7,7 @@ O projeto CRUD-FullStack foi desenvolvido por João Lara e tem como intuito apre
 
 ### Exemplo de Interface do Usuário:
 
-![Exemplo de Interface do Usuário](./public/crud-exemple.png)
+![Exemplo de Interface do Usuário](/client/public/crud-exemple.png)
 
 ## Instalação
 
